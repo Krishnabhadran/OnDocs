@@ -1,0 +1,16 @@
+{
+  "name": "text-to-pdf-server",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^22.12.1",
+    "node-fetch": "^3.3.2"
+  }
+}
